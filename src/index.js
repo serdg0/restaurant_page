@@ -1,13 +1,6 @@
-import contactPage from './contact';
-import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import navBar from './nav';
 
-function component() {
-    const element = document.createElement('div');
-
-
-    element.innerHTML = "WHATEVER";
-
-    return element;
-  }
-
-  document.body.appendChild(contactPage);
+const navbar = document.getElementById('navbar');
+const content = document.getElementById("content");
+navbar.appendChild(navBar());

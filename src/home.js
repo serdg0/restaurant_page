@@ -1,7 +1,7 @@
-const menu = () => {
+const home = () => {
     const content = document.getElementById("content");
     content.innerHTML = '';
-    content.innerHTML = 'Menú';
+    content.innerHTML = 'Home';
 }
 
-export default menu;
+export default home;
