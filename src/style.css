@@ -1,4 +1,11 @@
-#content {
-    background: url('./background.jpg') no-repeat center center fixed;
+body {
+    background: url('./images/background.jpg') no-repeat center center fixed;
     background-size: cover;
 }
+ #navbar {
+     color: whitesmoke;
+ }
+
+ #content {
+     color: steelblue;
+ }
