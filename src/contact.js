@@ -1,7 +1,7 @@
 import grid from './grid';
 
 const contactPage = () => {
-  grid();
+  const content = grid();
   const body = document.getElementsByTagName('body')[0];
   body.className = '';
   body.classList.add('contact-bg');

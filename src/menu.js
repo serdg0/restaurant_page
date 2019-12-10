@@ -2,7 +2,7 @@ import grid from './grid';
 import foodCard from './foodcard';
 
 const menu = () => {
-  grid();
+  const content = grid();
   const body = document.getElementsByTagName('body')[0];
   body.className = '';
   body.classList.add('menu-bg');

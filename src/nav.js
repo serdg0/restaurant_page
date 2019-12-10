@@ -20,10 +20,10 @@ const navBar = () => {
     tab.classList.add('nav-item');
     tab.appendChild(link);
     navUl.appendChild(tab);
-    if (tab == navHome) {
+    if (tab === navHome) {
       link.innerHTML = 'Home';
       link.onclick = () => { home(); };
-    } else if (tab == navContact) {
+    } else if (tab === navContact) {
       link.innerHTML = 'Contact';
       link.onclick = () => { contact(); };
     } else {
