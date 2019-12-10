@@ -17,6 +17,10 @@ Used:
 ## Purpose of the project
 The purpose of the project is to learn to use the module approach of Javascript, by using webpack, and also to identify his advantages.
 
+
+## Live version available [here](https://serdg0.github.io/restaurant_page/)
+
+
 ## Author
 This have been done by:
 
