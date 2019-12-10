@@ -8,6 +8,10 @@ const navBar = () => {
     const navHome = document.createElement('li');
     const navContact = document.createElement('li');
     const navMenu = document.createElement('li');
+    const navLogo = document.createElement('a');
+    navLogo.classList.add('navbar-brand');
+    navLogo.innerHTML = 'THE RESTAURANT';
+    navUl.appendChild(navLogo);
     let navArray = [navHome, navMenu, navContact];
 
     navArray.forEach(tab => {

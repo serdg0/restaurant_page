@@ -1,11 +1,36 @@
-body {
-    background: url('./images/background.jpg') no-repeat center center fixed;
+@font-face {
+    font-family: 'Whisky';
+    src:  url('./AmberWhiskey-FullColor.otf') format('otf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cookie';
+    src: url('./Cookie-Regular.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Whisky';
+}
+.contact-bg {
+    background: url('./images/contact-bg.jpg') no-repeat center center fixed;
     background-size: cover;
 }
- #navbar {
-     color: whitesmoke;
- }
 
- #content {
-     color: steelblue;
- }
+.menu-bg {
+    background: white;
+}
+
+.welcome-msg {
+    font-family: 'Cookie';
+    color: whitesmoke;
+}
+
+body, .home-bg {
+    background: url('./images/home-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
