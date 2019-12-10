@@ -1,8 +1,6 @@
 @font-face {
-    font-family: 'Whisky';
-    src:  url('./AmberWhiskey-FullColor.otf') format('otf');
-    font-weight: 600;
-    font-style: normal;
+    font-family: 'AmberWhiskey';
+    src: url('./AmberWhiskey.otf');
 }
 
 @font-face {
@@ -13,7 +11,7 @@
 }
 
 * {
-    font-family: 'Whisky';
+    font-family: 'AmberWhiskey';
 }
 .contact-bg {
     background: url('./images/contact-bg.jpg') no-repeat center center fixed;
@@ -21,12 +19,21 @@
 }
 
 .menu-bg {
-    background: white;
+    color: wheat;
+    background: url('./images/menu-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .welcome-msg {
     font-family: 'Cookie';
     color: whitesmoke;
+}
+
+.body-center {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
 }
 
 body, .home-bg {
