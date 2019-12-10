@@ -10,6 +10,9 @@
     font-style: normal;
 }
 
+#navbar {
+    color: black !important;
+}
 * {
     font-family: 'AmberWhiskey';
 }
